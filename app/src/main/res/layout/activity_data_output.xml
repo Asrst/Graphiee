@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="venky.spirometer.graphiee.dataOutputActivity">
+
+    <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/showInput_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:layout_margin="16sp"/>
+
+    <TextView
+        android:id="@+id/showInput_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:layout_margin="16sp"/>
+
+    <TextView
+        android:id="@+id/showInput_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:layout_margin="16sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/getOutput_A0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:layout_margin="08sp"/>
+
+    <TextView
+        android:id="@+id/getOutput_B0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:layout_margin="08sp"/>
+
+    <TextView
+        android:id="@+id/getOutput_C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:layout_margin="08sp"/>
+
+    <TextView
+        android:id="@+id/get_Bd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:layout_margin="08sp"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:background="#0099FF"
+        android:text="Graph"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
