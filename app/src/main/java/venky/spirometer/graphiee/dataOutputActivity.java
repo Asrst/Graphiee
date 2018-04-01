@@ -49,12 +49,10 @@ public class dataOutputActivity extends AppCompatActivity {
 
         final TextView getBd = (TextView) findViewById(R.id.get_Bd);
 
-        if(dA0>60 || dB0>60 || dC0>60){
-            getBd.setText("Patient has Bronchitis!");
-        }
-
-        else if(dA0>80 || dB0>80 || dC0>80){
+        if (dA0 >= 80 || dB0 >= 80 || dC0 >= 80) {
             getBd.setText("Patient has Aasthma!");
+        } else if ((dA0 < 80 || dB0 < 80 || dC0 < 80) && (dA0 > 60 || dB0 > 60 || dC0 > 60)) {
+            getBd.setText("Patient has Bronchitis!");
         }
 
 
